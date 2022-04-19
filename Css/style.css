@@ -3,7 +3,7 @@
     padding: 0;
 }
 html    {                   
-    
+   
     background-image: url('../img/hahaha.jpg'); /* imagem de fundo da pagina                        */
     background-size: 20rem;                     /* tamanho da img de fundo                          */
     display: flex;
@@ -17,9 +17,9 @@ header h1   {                                   /* texto cabeçalho*/
     
     display: flex;
     justify-content: center;
-    border-bottom-left-radius: 40px;               /* arredonda o backGrd inferior esquerdo            */
-    border-bottom-right-radius: 40px;              /* arredonda o backGrd inferior direito             */
-    background-color:rgba(48, 17, 121, 0.801);/* translucida o backGrd                            */
+    border-top-left-radius: 40px;               /* arredonda o backGrd inferior esquerdo            */
+    border-top-right-radius: 40px;              /* arredonda o backGrd inferior direito             */
+    background-color:rgba(48, 17, 121, 0.856);/* translucida o backGrd                            */
     color: #45a505;                           /* cor do txt                                       */
     font-size: 3rem;                            /* tamanho da fonte do txt                          */
 }
@@ -27,8 +27,8 @@ header h1   {                                   /* texto cabeçalho*/
 img     {
     
     display: flex;
-    max-width: 100%;                            /* tamanho max da img                               */
-    max-height: 100%;                           /* tamanho max da img                               */
+    max-width: 80%;                            /* tamanho max da img                               */
+    max-height: 80%;                           /* tamanho max da img                               */
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
@@ -39,11 +39,13 @@ img     {
 
 .pers   {                                       /* texto de humor e personalidade alterados         */
     
+    padding: 1px;
     gap: 10%;                                   /* espaço entre os textos                           */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color:#8b0202;
+    color:#860404;
+    background-color: rgba(48, 17, 121, 0.856);
     
 }
 
