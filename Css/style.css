@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html    {                   
+    
+    background-image: url('../img/hahaha.jpg'); /* imagem de fundo da pagina                        */
+    background-size: 20rem;                     /* tamanho da img de fundo                          */
+    display: flex;
+    justify-content: stretch;                   /* centraliza toda a pag                            */
+    flex-direction: column;                     /* direciona a flex da pag                          */
+    
+
+}
+
+header h1   {                                   /* texto cabeçalho*/
+    
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 40px;               /* arredonda o backGrd inferior esquerdo            */
+    border-top-right-radius: 40px;              /* arredonda o backGrd inferior direito             */
+    background-color:rgba(48, 17, 121, 0.801);/* translucida o backGrd                            */
+    color: #45a505;                           /* cor do txt                                       */
+    font-size: 3rem;                            /* tamanho da fonte do txt                          */
+}
+
+img     {
+    
+    display: flex;
+    max-width: 100%;                            /* tamanho max da img                               */
+    max-height: 100%;                           /* tamanho max da img                               */
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+    
+}
+
+.pers   {                                       /* texto de humor e personalidade alterados         */
+    
+    gap: 10%;                                   /* espaço entre os textos                           */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color:#8b0202;
+    
+}
+
+.bot    {                                       /* leyout do botao e do texto do botao alterados    */
+    
+    display: flex;
+    padding: 10px;                              /* tamanho do botao                                 */
+    background-color:rgb(2, 10, 116);         /* cor do botao                                     */ 
+    color: rgb(255, 0, 200);                  /* cor do fundo do botao                            */
+    margin: 4px;                                /* altera a margem envolta do botao                 */
+    border-radius: 15px;                        /* altera as bordas do botao                        */
+    
+}
+
+.img    {
+    
+    margin: auto;                               /* para centralizar a imagem deixando-a mais flex   */
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    height: 70%;                                /* limitando o tamanho das img exibidas             */
+    width: 70%;                                 /* limitando o tamanho das img exibidas             */
+    
+
+}   
+.bloc   {                                       /* posicionamento do botão                          */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
