@@ -5,7 +5,7 @@
 html    {                   
     
     background-image: url('../img/hahaha.jpg'); /* imagem de fundo da pagina                        */
-    background-size: 100vh;                     /* tamanho da img de fundo                          */
+    background-size: 20rem;                     /* tamanho da img de fundo                          */
     display: flex;
     justify-content: stretch;                   /* centraliza toda a pag                            */
     flex-direction: column;                     /* direciona a flex da pag                          */
@@ -17,8 +17,8 @@ header h1   {                                   /* texto cabeçalho*/
     
     display: flex;
     justify-content: center;
-    border-top-left-radius: 40px;               /* arredonda o backGrd inferior esquerdo            */
-    border-top-right-radius: 40px;              /* arredonda o backGrd inferior direito             */
+    border-bottom-left-radius: 40px;               /* arredonda o backGrd inferior esquerdo            */
+    border-bottom-right-radius: 40px;              /* arredonda o backGrd inferior direito             */
     background-color:rgba(48, 17, 121, 0.801);/* translucida o backGrd                            */
     color: #45a505;                           /* cor do txt                                       */
     font-size: 3rem;                            /* tamanho da fonte do txt                          */
@@ -76,4 +76,3 @@ img     {
     justify-content: center;
     
 }
-
